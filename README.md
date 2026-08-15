@@ -87,7 +87,7 @@ Data Transformation & Cleanup
         ▼
 Healthcare Analytics
         │
-        ├──────────────► Python Analysis
+        ├──────────────► Python Data Generation
         │
         └──────────────► Power BI Analytics
                               │
