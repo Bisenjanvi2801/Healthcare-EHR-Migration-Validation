@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end **Healthcare Electronic Health Record (EHR) Data Migration, Validation, Transformation, and Analytics** workflow.
+This project demonstrates an end-to-end Healthcare Electronic Health Record (EHR) data migration, validation, transformation, and analytics workflow.
 
-The project focuses on migrating healthcare data from a source environment to a target database, validating the migrated data, performing data transformation and cleanup, analyzing healthcare data using SQL and Python, and developing interactive Power BI dashboards for clinical, patient, provider, and migration-validation insights.
+The project focuses on migrating healthcare data from a source environment to a target database, validating the migrated data, performing data transformation and cleanup, generating healthcare data using Python, analyzing healthcare data using SQL, and developing interactive Power BI dashboards for clinical, patient, provider, and migration-validation insights.
 
 The project covers the following healthcare data domains:
 
@@ -17,11 +17,11 @@ The project covers the following healthcare data domains:
 - Medications
 - Allergies
 
-The complete project is organized into project management documents, source data, target data, SQL scripts, Python analysis, Power BI dashboards, documentation, reports, and dashboard screenshots.
+The complete project is organized into project management documents, source data, target data, SQL scripts, Python data-generation scripts, Power BI dashboards, documentation, reports, and dashboard screenshots.
 
 ---
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
 The primary objectives of this project are to:
 
@@ -34,65 +34,56 @@ The primary objectives of this project are to:
 - Identify potential data quality issues.
 - Perform data transformation and cleanup.
 - Develop healthcare analytics queries using SQL.
-- Analyze healthcare data using Python.
+- Generate healthcare data using Python.
 - Develop interactive Power BI dashboards.
 - Validate migration results through analytical dashboards.
 - Document the complete migration and analytics workflow.
 
 ---
 
-# 🏥 Healthcare Data Domains
+## 🏥 Healthcare Data Domains
 
 The project contains multiple healthcare-related entities.
 
 | Data Domain | Description |
 |---|---|
-| Patients | Patient demographic and related healthcare information |
-| Providers | Healthcare provider information |
-| Departments | Clinical and organizational department information |
-| Appointments | Patient appointment records |
-| Encounters | Patient healthcare encounter records |
-| Diagnoses | Patient diagnosis information |
-| Medications | Medication records |
-| Allergies | Patient allergy information |
+| **Patients** | Patient demographic and related healthcare information |
+| **Providers** | Healthcare provider information |
+| **Departments** | Clinical and organizational department information |
+| **Appointments** | Patient appointment records |
+| **Encounters** | Patient healthcare encounter records |
+| **Diagnoses** | Patient diagnosis information |
+| **Medications** | Medication records |
+| **Allergies** | Patient allergy information |
 
 ---
 
-# 🔄 End-to-End Project Workflow
+## 🔄 End-to-End Project Workflow
+
+The project follows the complete workflow below:
 
 ```text
 Healthcare Source Data
-        │
-        ▼
+        ↓
 Source Data Loading
-        │
-        ▼
+        ↓
 Source Data Validation
-        │
-        ▼
+        ↓
 Target Database Creation
-        │
-        ▼
+        ↓
 Target Table Creation
-        │
-        ▼
+        ↓
 Data Migration
-        │
-        ▼
+        ↓
 Post-Migration Validation
-        │
-        ▼
+        ↓
 Data Transformation & Cleanup
-        │
-        ▼
+        ↓
 Healthcare Analytics
+        ├──→ Python Data Generation
         │
-        ├──────────────► Python Data Generation
-        │
-        └──────────────► Power BI Analytics
-                              │
-                              ▼
-                     Final Dashboards
-                              │
-                              ▼
-                     Reports & Documentation
+        └──→ Power BI Analytics
+                  ↓
+            Final Dashboards
+                  ↓
+        Reports & Documentation
